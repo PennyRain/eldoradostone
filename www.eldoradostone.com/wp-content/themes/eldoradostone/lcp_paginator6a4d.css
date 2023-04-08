@@ -1,0 +1,10 @@
+/*  This is the css for pagination of the blog pages on /sitemap - basically to remove the boxes between the numbers. Placed here so as to not be overwritten by plugin updates. 
+    To change the number of posts shown, modify the shortcode on the page.
+    ScottMcD - 6/13/22
+*/
+.lcp_paginator li{
+  display: inline-block;
+  border: 1px transparent;
+  padding: 0 5px;
+  margin: 2px;
+}
